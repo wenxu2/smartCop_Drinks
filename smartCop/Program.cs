@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 
 /*
-* Description: 
+* Description: This class add drinks to the list and loop the list
 * @author Wenwen Xu
 * @version 1.0
 Filename: Program.cs
