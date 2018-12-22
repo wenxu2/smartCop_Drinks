@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
+
 /*
 * Description: This class add drinks to the list and loop the list
 * @author Wenwen Xu
@@ -12,20 +13,14 @@ class MainClass
 {
     public static void Main(string[] args)
     {
-        //Initalize a list with Drinks
-        List<Drinks> DrinkList = new List<Drinks>();
+        Juice _Juice = new Juice();
+        _Juice.ToString();
 
-        //Add items to the list
-        DrinkList.Add(new Drinks() { Type = "Orange Juice", IsCarbonated = false, TypeDescription="made from oranges" });
-        DrinkList.Add(new Drinks() { Type = "Budweiser", IsCarbonated = true, TypeDescription = "5% alcohol" });
-        DrinkList.Add(new Drinks() { Type = "Pepsi", IsCarbonated = true });
+        Beer _Beer = new Beer();
+        _Beer.ToString();
 
-        //print out the items in the list
-        foreach(Drinks aDrink in DrinkList)
-        {
-            Console.WriteLine(aDrink.ToString());
-        }
-
+        Soda _Soda = new Soda();
+        _Soda.ToString();
 
     }
 }
